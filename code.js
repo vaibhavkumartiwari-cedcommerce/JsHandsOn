@@ -1,5 +1,3 @@
-function functionWithArgs(p,q){
-    console.log(p+q);
-  
+function timesFive(p){
+    return 5*p;
   }
-  functionWithArgs(3,4);
