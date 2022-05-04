@@ -1,7 +1,7 @@
 // Setup
-const myArray = [];
+const myArr = [2, 3, 4, 5, 6];
 
 // Only change code below this line
-for(let i=10;i>0;i--)
-if(i%2!=0)
- myArray.push(i);
+var total=0;
+for(let i=0;i<myArr.length;i++)
+ total+=myArr[i];
